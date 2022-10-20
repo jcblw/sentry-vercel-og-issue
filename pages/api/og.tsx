@@ -4,7 +4,7 @@ export const config = {
   runtime: "experimental-edge",
 };
 
-export default function ogImage() {
+const ogImage = () => {
   return new ImageResponse(
     (
       <div
@@ -27,4 +27,6 @@ export default function ogImage() {
       height: 600,
     }
   );
-}
+};
+
+export default ogImage;
