@@ -51,6 +51,7 @@ const ogImage = () => {
                 fill="#EAE2EB"
               />
             </svg>
+            {"stuff"}
           </div>
         </div>
       </div>
